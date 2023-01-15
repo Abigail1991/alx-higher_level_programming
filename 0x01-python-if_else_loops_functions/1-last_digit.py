@@ -5,10 +5,10 @@ if (number < 0):
     nr = ((-number) % 10) * -1
 else:
     nr = number % 10
-print("Last digit of {:d} is {:d} and is ".format(number, nr), end='')
+    print("Last digit of {:d} is {:d} and is ".format(number, nr), end='')
 if (nr > 5):
-     print("greater than 5")
+    print("greater than 5")
 elif nr == 0:
     print(" 0")
 else:
-     print("Less than 6 and not 0")
+    print("Less than 6 and not 0")
