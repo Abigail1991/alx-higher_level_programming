@@ -9,6 +9,6 @@ else:
 if (nr > 5):
     print("greater than 5")
 elif nr == 0:
-    print(" 0")
+    print("0")
 else:
     print("Less than 6 and not 0")
