@@ -16,4 +16,4 @@ if argc > 1:
     for i in range(1, argc):
         lst.append(sys.argv[i])
 
-save_to_json_file(lst, "add_item.json"
+save_to_json_file(lst, "add_item.json")
