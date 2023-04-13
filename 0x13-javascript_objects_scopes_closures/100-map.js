@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const list = require('./100-data.js').list;
+const list = require('./100-data').list;
 const multiIdx = (value, index) => value * index;
 const newlist = list.map(multiIdx);
 console.log('Initial List:', list);
