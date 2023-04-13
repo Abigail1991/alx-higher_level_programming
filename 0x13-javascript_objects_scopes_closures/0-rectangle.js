@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-
+#!/usr/bin/node
 class Rectangle {
-  // class methods and properties go here
 }
 
 module.exports = Rectangle;
